@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi's Cake Blog</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="">
+        <div id="contact">
+            <h1>Order me</h1>
+            <hr>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="col1">Cake name:</td>
+                    <td class="col2">
+                        <select name="cake" id="cake">
+                        <option selected value="">--- Select cake ---</option>
+                        <option value="Classic Yellow Cake">Classic Yellow Cake</option>
+                        <option value="Coconut Bundt Cake">Coconut Bundt Cake</option>
+                        <option value="Cream Cheese Pound Cake">Cream Cheese Pound Cake</option>
+                        <option value="German Chocolate Cake">German Chocolate Cake</option>
+                    </select> </td>
+                    <td class="col3"><span class="error" id="error_cake"></span></td>
+                </tr>
+                <tr>
+                    <td class="col1">Your name:</td>
+                    <td class="col2"><input type="text" id="your_name" required></td>
+                    <td class="col3"><span class="error" id="error_name"></span></td>
+                </tr>
+                <tr>
+                    <td class="col1">Message:</td>
+                    <td class="col2"><input type="text" id="message" placeholder="Type your text that write on the cake.."></td>
+                    <td class="col3"><span class="error" id="error_message"></span></td>
+                </tr>
+                <tr>
+                    <td class="col1">Includes:</td>
+                    <td class="col2">
+                        <label> <input type="checkbox" class="include" value="Candle" name="include">&emsp;Candale</label><br>
+                        <label> <input type="checkbox" class="include" value="Firework" name="include">&emsp;Firework</label><br>
+                        <label> <input type="checkbox" class="include" value="Toys" name="include">&emsp;Toys</label>
+                    </td>
+                    <td class="col3"></td>
+                </tr>
+                <tr>
+                    <td class="col1">Deliver date:</td>
+                    <td class="col2"><input type="date" id="date" required></td>
+                    <td class="col3"><span class="error" id="error_date"></span></td>
+                </tr>
+                <tr>
+                    <td class="col1">Deliver to:</td>
+                    <td class="col2"><textarea name="deliver to" id="deliver_to" cols="30" rows="10" required></textarea></td>
+                    <td class="col3"><span class="error" id="error_deliver"></span></td>
+                </tr>
+                <tr>
+                    <td class="col1">Call before deliver?</td>
+                    <td class="col2">
+                        <label>
+                            <input type="radio" value="Yes" id="yes" name="question">&emsp;Yes
+                        </label>
+                        <label>
+                            <input type="radio" value="No" checked id="no" name="question">&emsp;No
+                        </label>
+                    </td>
+                    <td class="col3"></td>
+                </tr>
+                <tr>
+                    <td class="col1"></td>
+                    <td class="col2"><button type="submit" onclick="return check()">Order now</button></td>
+                    <td class="col3"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script src="./js/order.js"></script>
+
+
+</body>
+
+</html>

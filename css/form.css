@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+    color: #eb9191;
+    background-color: rgb(46, 42, 42);
+}
+
+#contact {
+    margin-left: 40px;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+tr {
+    height: 40px;
+}
+
+.col1 {
+    width: 20%;
+}
+
+.col2 {
+    width: 30%;
+}
+
+.col3 {
+    width: 60%;
+}
+
+input {
+    width: 239px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #eb9191;
+    color: #eb9191;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 1px solid #eb9191;
+    color: #eb9191;
+}
+
+select {
+    width: 239px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #eb9191;
+    color: #eb9191;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    color: #ffffff;
+    background-color: #bf5858;
+    border-radius: 5px;
+    border: 1px solid #eb9191;
+}
+
+label>input {
+    height: 13px;
+    width: 13px;
+}
+
+span {
+    color: red;
+}

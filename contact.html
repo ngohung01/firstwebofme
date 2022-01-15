@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi's Cake Blog</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="">
+        <div id="contact">
+            <h1>Contact me</h1>
+            <hr>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="col1">Your name:</td>
+                    <td class="col2"><input type="text" id="your_name" required placeholder="Please enter your full name"></td>
+                    <td class="col3"><span class="error" id="error_name"></span></td>
+                </tr>
+                <tr>
+                    <td class="col1">Your email:</td>
+                    <td class="col2"><input type="email" id="your_email" required placeholder="Please enter your email"></td>
+                    <td class="col3"><span class="error" id="error_email"></span></td>
+                </tr>
+                <tr>
+                    <td class="col1">Subject:</td>
+                    <td class="col2"><input type="text" id="subject" required></td>
+                    <td class="col3"><span class="error" id="error_subject"></span></td>
+                </tr>
+                <tr>
+                    <td class="col1">Message:</td>
+                    <td class="col2"><textarea name="message" id="message" cols="30" rows="10" required></textarea></td>
+                    <td class="col3"><span class="error" id="error_message"></span></td>
+                </tr>
+                <tr>
+                    <td class="col1"></td>
+                    <td class="col2"><button type="submit" onclick="return check()">Send message</button></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script src="./js/contact.js"></script>
+
+
+</body>
+
+</html>

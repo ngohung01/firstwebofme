@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+    color: #eb9191;
+    background-color: rgb(46, 42, 42);
+}
+
+body {
+    position: relative;
+}
+
+header {
+    background: url(../images/banner.png) top center / cover no-repeat;
+    height: 123px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+h1 {
+    font-size: 2em;
+    /* background-color: rgba(233, 213, 127, 0.8); */
+    text-align: center;
+    color: #309b27;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.83em;
+}
+
+h6 {
+    font-size: .67em;
+}
+
+
+/* nav {
+    position: absolute;
+} */
+
+nav li {
+    list-style-type: none;
+}
+
+nav ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul>li a {
+    text-decoration: none;
+    color: #000000;
+    line-height: 46px;
+    padding: 0 20px;
+    font-size: 17px;
+}
+
+nav ul>li:hover,
+ol li:hover {
+    background-color: #f3eded;
+}
+
+nav ul>li:hover>a {
+    color: rgb(138, 82, 8);
+}
+
+nav ol {
+    display: none;
+    position: absolute;
+    background-color: #e0bdbd;
+}
+
+ol li {
+    width: 200px;
+    display: block;
+}
+
+ol li:hover a {
+    color: #000000;
+}
+
+nav ul>li:hover ol {
+    display: block;
+}
+
+
+/* main */
+
+img {
+    width: 400px;
+    height: 400px;
+    margin: 10px 0;
+}
+
+main {
+    margin: 150px auto 66px;
+    width: 70%;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+}
+
+main a:link {
+    display: block;
+    line-height: 26px;
+    color: red;
+    text-decoration: none;
+    background-color: rgb(95, 99, 100);
+}
+
+main a:visited {
+    display: block;
+    line-height: 26px;
+    text-decoration: none;
+    background-color: rgb(95, 99, 100);
+    color: rgb(10, 10, 10);
+}
+
+main a:hover {
+    display: block;
+    line-height: 26px;
+    text-decoration: none;
+    background-color: rgb(95, 99, 100);
+    color: #08973f;
+}
+
+main a:active {
+    display: block;
+    line-height: 26px;
+    text-decoration: none;
+    background-color: rgb(95, 99, 100);
+    color: rgb(19, 184, 206);
+}
+
+
+/* footer */
+
+footer {
+    background-color: #ffffff;
+    line-height: 26px;
+    position: absolute;
+    width: 100%;
+}
+
+footer p {
+    margin-left: 20px;
+}
