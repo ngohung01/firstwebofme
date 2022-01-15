@@ -104,8 +104,8 @@ nav ul>li:hover ol {
 /* main */
 
 img {
-    width: 400px;
-    height: 400px;
+    width: 70%;
+    height: auto;
     margin: 10px 0;
 }
 
